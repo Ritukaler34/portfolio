@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.header-content h1 {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.flex-row-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-direction: row-reverse;
+}
+
+.about-text, .skills-text, .project-text, .resume-text, .contact-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-image, .skills-image, .projects-image, .resume-image, .contact-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills, #resume {
+    background: #f4f4f4;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
